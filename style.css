@@ -1,0 +1,19 @@
+body{
+background-color: black;
+}
+.btn-dark-outline:hover{
+    background-color: white;
+}
+canvas{
+    animation-name: dork;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes dork{
+    from{
+        box-shadow: 1px 1px 40px darkgray;
+    }
+    to{
+        box-shadow: 1px 1px 40px white;
+    }
+}
